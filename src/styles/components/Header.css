@@ -1,0 +1,48 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+}
+.Header-checkout {
+  display: block;
+  float: right;
+}
+.Header-title{
+  padding-left: 100px;
+}
+
+
+.Header-menu {
+  display: inline;
+  list-style: none;
+  list-style-type: none;
+  padding-right: 100px;
+}
+
+li{
+  display: block;
+  float: left;
+  padding: 3px;
+  margin-left: 10px;
+}
+.Header-alert {
+  color: #33b13a;
+  font-size: 14px;
+  margin-left: 5px;
+  margin-top: 3px;
+  margin-right: 0px;
+}
+.Header-alert-empty{
+  color: #33b13a;
+  font-size: 14px;
+  margin-left: 13px;
+}
+.Header a {
+  text-decoration: none;
+  color: #33b1ff;
+}
+
+.my-orders{
+  display: flex;
+  float: left;
+  padding-right: 5px;
+}
